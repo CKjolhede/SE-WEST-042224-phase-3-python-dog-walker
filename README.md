@@ -12,7 +12,7 @@
 
 | Lecture                                              |   Notes    | Videos     | Starter      | Solution      | Slides |
 | ---------------------------------------------------- | :--------: | ---------- | ------------ | ------------- | ------ |
-| 1. (06/03/24) Python Fundamentals                    | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 1. (06/03/24) Python Fundamentals                    | [Notes](#) | [Video](https://github.com/learn-co-students/SE-WEST-042224-phase-3-python-dog-walker/tree/01_solution/01_python_fundamentals) | [Starter](https://github.com/learn-co-students/SE-WEST-042224-phase-3-python-dog-walker/tree/main/01_python_fundamentals) | [Solution](https://github.com/learn-co-students/SE-WEST-042224-phase-3-python-dog-walker/tree/01_solution/01_python_fundamentals) | [Slides](https://raw.githack.com/learn-co-students/SE-WEST-042224-phase-3-python-dog-walker/main/01_python_fundamentals/assets/export/index.html)       |
 | 2. (06/04/24) Python Data Structures                 | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
 | 3. (06/05/24) Object Oriented Programming in Python  | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
 | 4. (06/06/24) OOP 2: Class Methods & Class Variables | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
