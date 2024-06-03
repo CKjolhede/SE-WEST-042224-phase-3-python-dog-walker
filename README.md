@@ -10,16 +10,16 @@
 - Create and present a project with a React frontend and a database-backed API backend
 
 
-| Lecture | Notes | Videos | Starter | Solution |
-| ------- | :---: | ------ | ------- | -------- |
-| 1. (00/00/00) Python Fundamentals     |  [Notes](#)     |  [Video](#)      |    [Starter](#)     |   [Solution](#)       |
-| 2. (00/00/00) Python Data Structures     |  [Notes](#)     |   [Video](#)     |    [Starter](#)     |    [Solution](#)        |
-| 3. (00/00/00) Object Oriented Programming in Python     |  [Notes](#)     |  [Video](#)      |   [Starter](#)      |    [Solution](#)      |
-| 4. (00/00/00) OOP 2: Class Methods & Class Variables     |   [Notes](#)    |   [Video](#)     |   [Starter](#)      |  [Solution](#)        |
-| 5. (00/00/00) SQL Fundamentals & Table Relations     |  [Notes](#)     |   [Video](#)     |   [Starter](#)      |   [Solution](#)         |
-| 6. (00/00/00) Object-Relational Mapping     |   [Notes](#)    |   [Video](#)     |    [Starter](#)     |   [Solution](#)       |
-| 7. (00/00/00) SQLAlchemy & Alembic     |   [Notes](#)    |    [Video](#)    |   [Starter](#)      |    [Solution](#)      |
-| 8. (00/00/00) SQLAlchemy Associations     |   [Notes](#)    |    [Video](#)    |   [Starter](#)      |    [Solution](#)      |
+| Lecture                                              |   Notes    | Videos     | Starter      | Solution      | Slides |
+| ---------------------------------------------------- | :--------: | ---------- | ------------ | ------------- | ------ |
+| 1. (06/03/24) Python Fundamentals                    | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 2. (06/04/24) Python Data Structures                 | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 3. (06/05/24) Object Oriented Programming in Python  | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 4. (06/06/24) OOP 2: Class Methods & Class Variables | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 5. (06/07/24) SQL Fundamentals & Table Relations     | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 6. (06/11/24) Object-Relational Mapping              | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 7. (06/12/24) CLI Applications                       | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
+| 8. (06/13/24) DS&A                                   | [Notes](#) | [Video](#) | [Starter](#) | [Solution](#) | [Slides](#)       |
 
 ## 1: Python Fundamentals
 ### Lecture Goals:
