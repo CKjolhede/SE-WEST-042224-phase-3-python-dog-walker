@@ -183,7 +183,7 @@ for num in numbers:
 #### `continue` keyword 🔑
 
 <div style="font-size: 1.5rem">
-In Python, a <code>while</code> loop will repeatedly execute a code block as long as a condition evaluates to <code>True</code>.
+In Python, the <code>continue</code> keyword is used inside a loop to skip the remaining code inside the loop code block and begin the next loop iteration.
 </div>
 
 
@@ -203,7 +203,7 @@ for i in big_number_list:
 #### `while` loops 🔍
 
 <div style="font-size: 1.5rem">
-In Python, the <code>continue</code> keyword is used inside a loop to skip the remaining code inside the loop code block and begin the next loop iteration.
+In Python, a <code>while</code> loop will repeatedly execute a code block as long as a condition evaluates to <code>True</code>.
 </div>
 
 ```python
