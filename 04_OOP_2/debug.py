@@ -3,6 +3,8 @@
 # Introduction to Object Oriented programming, classes, instances, methods
 
 from lib.cat import *
+from lib.handler import *
+from lib.job import *
 from lib.owner import *
 
 # Importing the pet class
@@ -20,6 +22,13 @@ chris = Owner("chris", "chris@mail.com")
 jess.add_pet(cookie)
 jess.add_pet(rose)
 chris.add_pet(princess_grace)
+
+aixe = Handler("Aixe", "aixe@mail.com", 22)
+hodor = Handler("Hodor", "hodor@mail.com", 19.99)
+
+rose.book_handler(aixe, "7-31-24", 2)
+rose.book_handler(hodor, "6-22-24", 3)
+cookie.book_handler(aixe, "6-20-24", 1.5)
 
 
 import ipdb
