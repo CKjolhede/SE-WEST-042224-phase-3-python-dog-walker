@@ -76,11 +76,22 @@ The following slides outline the configuration changes necessary to integrate a 
 
 ## DB Config
 
-### Add sqlite3 gem to Gemfile
+Check for prior installation of `sqlite`
 
 ```bash
-bundle add sqlite3
+which sqlite3
 ```
+If not installed, you can install it on MacOS with Homebrew:
+```bash
+brew install sqlite
+```
+or for Windows, go to this [link](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-sqlite)
+
+---
+
+### GUI with your SQLite databases
+
+
 
 Install [DB Browser for SQLite](https://sqlitebrowser.org/)
 
