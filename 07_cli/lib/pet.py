@@ -54,7 +54,7 @@ class Pet:
 
     # ✅ 7. Add "get_all" Class Method to Retrieve All "pet" Instances From DB
     @classmethod
-    def get_all(cls):
+    def get_all_pets(cls):
         sql = "SELECT * FROM pets;"
         return [cls.instance_from_db(row) for row in CURSOR.execute(sql).fetchall()]
 
@@ -85,7 +85,7 @@ class Pet:
     # If No "pet" Found, return "None"
 
     @classmethod
-    def find_by_id(cls, id):
+    def find_pet_by_id(cls, id):
         sql = """
             SELECT * FROM pets
             WHERE id = ? 
