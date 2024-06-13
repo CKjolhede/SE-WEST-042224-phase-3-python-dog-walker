@@ -1,4 +1,5 @@
 from handler import Handler
+from helpers import *
 from job import Job
 from pet import Pet
 from rich import print
@@ -61,9 +62,10 @@ def display_pet_submenu(pet):
 
 
 def handle_pet_choice(choice, pet):
+
     if choice == "1":
         show_pet_jobs(pet)
-    if choice == "2":
+    elif choice == "2":
         add_job_to_pet(pet)
     else:
         display_all_pets()
@@ -77,7 +79,7 @@ def show_pet_jobs(pet):
         )
 
 
-def add_job_to_pet(pet):
+def add_pet(pet):
     pass
 
 

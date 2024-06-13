@@ -26,6 +26,11 @@ class Handler:
         CURSOR.execute(sql)
 
     @classmethod
+    def get_all_handler_names(cls):
+        sql = "SELECT * from handlers;"
+        return [row[1] for row in CURSOR.execute(sql).fetchall()]
+
+    @classmethod
     def instance_from_db(cls, row):
         handler = cls(
             id=row[0],
@@ -44,6 +49,18 @@ class Handler:
             LIMIT 1
         """
         row = CURSOR.execute(sql, (id,)).fetchone()
+        if not row:
+            return None
+        return cls.instance_from_db(row)
+
+    @classmethod
+    def find_handler_by_name(cls, name):
+        sql = """
+            SELECT * FROM handlers
+            WHERE name = ? 
+            LIMIT 1
+        """
+        row = CURSOR.execute(sql, (name,)).fetchone()
         if not row:
             return None
         return cls.instance_from_db(row)
