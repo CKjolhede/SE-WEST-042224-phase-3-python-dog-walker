@@ -62,7 +62,8 @@ def display_pet_submenu(pet):
 
 
 def handle_pet_choice(choice, pet):
-
+    # valid = ["1", "2", "3"]
+    # if choice not in valid: print("Please select a valid choice") -> display_pet_submenu()
     if choice == "1":
         show_pet_jobs(pet)
     elif choice == "2":
